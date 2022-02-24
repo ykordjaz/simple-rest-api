@@ -46,3 +46,10 @@ group :development do
   # gem "spring"
 end
 
+group :test do
+  gem "json-schema"
+end
+
+group :test do
+  gem "json_matchers"
+end
